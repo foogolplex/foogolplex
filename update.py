@@ -27,6 +27,8 @@ def act():
             data["angels"][user] += 1
     elif action == "kill":
         stats["deathtoll"] += 1
+        if user in data["angels"]:
+            del data["angels"][user]
         data["murderers"].append(user)
         generateNew()
 
@@ -71,14 +73,16 @@ Deathtoll: {}
 </p>
 
 '''.format(stats["name"], stats["currentfed"], stats["totalfed"], stats["deathtoll"]))
-        f.write('\n| Top Feeders | Score |')
+        f.write('<center>\n| Top Feeders | Score |')
         f.write('\n| --------- | --------- |')
         for angel in data["angels"].keys():
-            f.write('\n| '+angel+ ' |' + data["angels"][angel] + ' |')
+            f.write('\n| '+angel+ ' |' + str(data["angels"][angel]) + ' |')
+        f.write('</center><center>')
         f.write('\n\n| Murderers |')
         f.write('\n| ---------- |')
         for m in data["murderers"]:
             f.write('\n| '+m+' |')
+        f.write('</center>')
         f.close()
 # if not a murderer then act
 if user not in data["murderers"]:
