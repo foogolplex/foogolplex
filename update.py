@@ -74,8 +74,8 @@ Deathtoll: {}
         f.write('\n| Top Feeders | Score |')
         f.write('\n| --------- | --------- |')
         for angel in data["angels"].keys():
-            f.write('\n| '+angel+ ' |')
-        f.write('\n| Murderers |')
+            f.write('\n| '+angel+ ' |' + data["angels"][angel] + ' |')
+        f.write('\n\n| Murderers |')
         f.write('\n| ---------- |')
         for m in data["murderers"]:
             f.write('\n| '+m+' |')
