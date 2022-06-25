@@ -24,7 +24,10 @@ jobs:
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
         
       name: Set env variables and update the stats based on the issue title
-    - run: python update.py github.event.issue.user.login github.event.issue.title
+      env:
+        ENV_USER: github.event.issue.user.login
+        ENV_TITLE: github.event.issue.title
+    - run: python update.py $ENV_USER $ENV_TITLE
     
       name: Commit updated game/readme state
     - run: git add .
