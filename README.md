@@ -1,5 +1,7 @@
 <p align="center">Hi, I'm Rob.</p>
 
+<p align="center"><i>Insert a meta, humble, "individualizing" hogwash of a blarney you've seen a septillion times to convince you I'm normal, competent and unique.</i></p>
+
 <br>
 <br>
 
@@ -14,4 +16,18 @@ Dilemma
 <a href=https://github.com/foogolplex/foogolplex/issues/new?title=kill&body=just+click+submit+and+they+will+die+but+be+warned+that+you+will+be+revoked+from+your+privileges>kill</a>
 </p>
 
-Name: Charles EinsteinStreak (amount currently fed): 2Total times fed: 5Deathtoll: 1
+<p align="center">
+Name: Charles Einstein
+</p>
+
+<p align="center">
+Streak (currently fed): 3
+</p>
+
+<p align="center">
+Total times fed: 6
+</p>
+
+<p align="center">
+Deathtoll: 1
+</p>
