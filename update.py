@@ -34,11 +34,11 @@ firstNames = ["Abraham", "Muhumammad ibn", "Alan", "Albert", "Albertus", "Alexan
 lastNames = ["De Moivre", "Khwarizmi", "Turing", "Einstein", "Magnus", "Grothendieck", "Whitehead", "Wiles", "Cayley", "Cauchy", "De Morgan", "Banneker", "Riemann", "Russel", "Pascal", "Taylor", "Gauss", "Babbage", "Bernoulli", "Hilbert"]
 def generateNew():
     stats["currentfed"] = 0
-    stats["name"] = firstNames[randint(0,len(firstNames))] + lastNames[randint(0,len(lastNames))]
+    stats["name"] = firstNames[randint(0,len(firstNames))] + " " + lastNames[randint(0,len(lastNames))]
 
 def updateReadme():
     with open("README.md", "w") as f:
-        f.write("""[feed](https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will)\n
+        f.write("""<p align="center">##Hi, I'm Rob</p>.\n[feed](https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will)\n
 [kill](https://github.com/foogolplex/foogolplex/issues/new?title=kill&body=just+click+submit+and+they+will+die+but+be+warned+that+you+will+be+revoked+from+your+privileges)
 """)
         f.close()
