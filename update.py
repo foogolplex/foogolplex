@@ -2,8 +2,8 @@ import sys
 import json
 from random import randint
 
-user = argv[1]
-action = argv[2]
+user = sys.argv[1]
+action = sys.argv[2]
 
 print(user)
 print(action)
