@@ -15,11 +15,11 @@ Dilemma V0.1
 </p>
 
 <p align="center">
-Name: Charles Einstein
+Name: Muhumammad ibn Taylor
 </p>
 
 <p align="center">
-Streak (currently fed): 8
+Streak (currently fed): 0
 </p>
 
 <p align="center">
@@ -27,13 +27,13 @@ Total times fed: 11
 </p>
 
 <p align="center">
-Deathtoll: 1
+Deathtoll: 2
 </p>
 
 
 | Top Feeders | Score |
 | :-: | :-: |
-| [@foogolplex](https://github.com/foogolplex/) | 11 |
 
 | Murderers |
 | :-: |
+| [@foogolplex](https://github.com/foogolplex/) |
