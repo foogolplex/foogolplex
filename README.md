@@ -19,11 +19,15 @@ Name: Muhumammad ibn Taylor
 </p>
 
 <p align="center">
-Streak (currently fed): 0
+Streak (currently fed): 1
 </p>
 
 <p align="center">
-Total times fed: 11
+Highest streak: 1
+</p>
+
+<p align="center">
+Total times fed: 12
 </p>
 
 <p align="center">
@@ -33,7 +37,7 @@ Deathtoll: 2
 
 | Top Feeders | Score |
 | :-: | :-: |
+| [@foogolplex](https://github.com/foogolplex/) | 1 |
 
 | Murderers |
 | :-: |
-| [@foogolplex](https://github.com/foogolplex/) |
