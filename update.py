@@ -47,8 +47,8 @@ if user not in data["murderers"]:
 
     # save changes
     with open("players.json", "w") as p:
-        json.dumps(data, p)
+        json.dump(data, p)
         p.close()
     with open("stats.json", "w") as s:
-        json.dumps(stats, s)
+        json.dump(stats, s)
         s.close()
