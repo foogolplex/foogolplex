@@ -26,7 +26,7 @@ jobs:
       name: Set env variables and update the stats based on the issue title
       env:
         ENVUSER: github.event.issue.user.login
-        ENVACTION: github.event.issue.user.title
+        ENVACTION: github.event.issue.title
     - run: python update.py
     
       name: Commit updated game/readme state
