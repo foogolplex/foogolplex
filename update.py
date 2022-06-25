@@ -1,6 +1,6 @@
 import os
 import json
-import randint from random
+from random import randint
 
 user = os.getenv("user")
 action = os.getenv("action")
