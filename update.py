@@ -40,8 +40,6 @@ def updateReadme():
     with open("README.md", "w") as f:
         f.write('''<p align="center">Hi, I'm Rob.</p>
 
-<p align="center"><i>Insert a meta, humble, "individualizing" hogwash of a blarney you've seen a septillion times to convince you I'm normal, competent and unique.</i></p>
-
 <br>
 <br>
 
@@ -71,7 +69,16 @@ Total times fed: {}
 <p align="center">
 Deathtoll: {}
 </p>
+
 '''.format(stats["name"], stats["currentfed"], stats["totalfed"], stats["deathtoll"]))
+        f.write('\n| Top Feeders |')
+        f.write('\n| --------- |')
+        for angel in data["angels"].keys():
+            f.write('| '+angel+ ' |')
+        f.write('\n| Murderers |')
+        f.write('\n| ---------- |')
+        for m in data["murderers"]:
+            f.write('| '+m+' |')
         f.close()
 # if not a murderer then act
 if user not in data["murderers"]:
