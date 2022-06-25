@@ -15,11 +15,11 @@ Dilemma V0.1
 </p>
 
 <p align="center">
-Name: Muhumammad ibn Taylor
+Name: Augustus Banneker
 </p>
 
 <p align="center">
-Streak (currently fed): 1
+Streak (currently fed): 0
 </p>
 
 <p align="center">
@@ -31,13 +31,13 @@ Total times fed: 12
 </p>
 
 <p align="center">
-Deathtoll: 2
+Deathtoll: 3
 </p>
 
 
 | Top Feeders | Score |
 | :-: | :-: |
-| [@foogolplex](https://github.com/foogolplex/) | 1 |
 
 | Murderers |
 | :-: |
+| [@foogolplex](https://github.com/foogolplex/) |
