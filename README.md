@@ -4,7 +4,7 @@
 <br>
 
 <h1 align="center">
-Dilemma
+Dilemma V0.1
 </h1>
 
 <p align="center">
@@ -19,11 +19,11 @@ Name: Charles Einstein
 </p>
 
 <p align="center">
-Streak (currently fed): 7
+Streak (currently fed): 8
 </p>
 
 <p align="center">
-Total times fed: 10
+Total times fed: 11
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ Deathtoll: 1
 
 | Top Feeders | Score |
 | :-: | :-: |
-| [@foogolplex](https://github.com/foogolplex/ | 10 |
+| [@foogolplex](https://github.com/foogolplex/) | 11 |
 
 | Murderers |
 | :-: |
