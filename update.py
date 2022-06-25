@@ -5,6 +5,9 @@ from random import randint
 user = os.getenv("ENVUSER")
 action = os.getenv("ENVACTION")
 
+print(user)
+print(action)
+
 stats = {}
 data = {}
 with open("players.json") as players:
