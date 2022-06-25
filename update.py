@@ -58,9 +58,9 @@ Dilemma
 
 ''')
         f.write("Name: " + stats["name"])
-        f.write("Streak (amount currently fed): " + str(stats["currentfed"]))
-        f.write("Total times fed: " + str(stats["totalfed"]))
-        f.write("Deathtoll: " + str(stats["deathtoll"]))
+        f.write("\nStreak (amount currently fed): " + str(stats["currentfed"]))
+        f.write("\nTotal times fed: " + str(stats["totalfed"]))
+        f.write("\nDeathtoll: " + str(stats["deathtoll"]))
         f.close()
 # if not a murderer then act
 if user not in data["murderers"]:
