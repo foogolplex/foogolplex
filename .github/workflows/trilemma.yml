@@ -22,10 +22,18 @@ jobs:
       with:
         python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-    - run: python update.py feed
+        
+      name: Set env variables and update the stats based on the issue title
+      env:
+        user: github.event.issue.user.login
+        action: github.event.issue.user.title
+    - run: python update.py
+    
+      name: Commit updated game/readme state
     - run: git add .
     - run: git config --global user.name "borb"
     - run: git commit -m "feed"
+    
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
