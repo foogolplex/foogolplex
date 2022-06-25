@@ -1,9 +1,9 @@
-import os
+import sys
 import json
 from random import randint
 
-user = os.getenv("ENVUSER")
-action = os.getenv("ENVACTION")
+user = argv[1]
+action = argv[2]
 
 print(user)
 print(action)
