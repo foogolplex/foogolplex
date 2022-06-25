@@ -40,7 +40,7 @@ def generateNew():
 
 def updateReadme():
     with open("README.md", "w") as f:
-        f.write('''<p align="center">Hi, I'm Rob.</p>
+        f.write('''<h2 align="center">Hi, I'm Rob.</h2>
 
 <br>
 <br>
@@ -73,16 +73,14 @@ Deathtoll: {}
 </p>
 
 '''.format(stats["name"], stats["currentfed"], stats["totalfed"], stats["deathtoll"]))
-        f.write('<center>\n| Top Feeders | Score |')
-        f.write('\n| --------- | --------- |')
+        f.write('\n| Top Feeders | Score |')
+        f.write('\n| :-: | :-: |')
         for angel in data["angels"].keys():
-            f.write('\n| '+angel+ ' |' + str(data["angels"][angel]) + ' |')
-        f.write('</center><center>')
+            f.write('\n| [@'+angel+ '](https://github.com/'+ angel + '/ | ' + str(data["angels"][angel]) + ' |')
         f.write('\n\n| Murderers |')
-        f.write('\n| ---------- |')
+        f.write('\n| :-: |')
         for m in data["murderers"]:
-            f.write('\n| '+m+' |')
-        f.write('</center>')
+            f.write('\n| [@'+m+'](https://github.com/'+ angel + '/ |')
         f.close()
 # if not a murderer then act
 if user not in data["murderers"]:
