@@ -21,6 +21,8 @@ def act():
     if action == "feed":
         stats["totalfed"] += 1
         stats["currentfed"] += 1
+        if stats["currentfed"] > stats["highstreak"]:
+            stats["highstreak"] = stats["currentfed"]
         if user not in data["angels"]:
             data["angels"][user] = 1
         else:
@@ -65,6 +67,10 @@ Streak (currently fed): {}
 </p>
 
 <p align="center">
+Highest streak: {}
+</p>
+
+<p align="center">
 Total times fed: {}
 </p>
 
@@ -72,7 +78,7 @@ Total times fed: {}
 Deathtoll: {}
 </p>
 
-'''.format(stats["name"], stats["currentfed"], stats["totalfed"], stats["deathtoll"]))
+'''.format(stats["name"], stats["currentfed"], stats["highstreak"], stats["totalfed"], stats["deathtoll"]))
         f.write('\n| Top Feeders | Score |')
         f.write('\n| :-: | :-: |')
         for angel in data["angels"].keys():
