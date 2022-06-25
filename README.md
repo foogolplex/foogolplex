@@ -19,11 +19,11 @@ Name: Charles Einstein
 </p>
 
 <p align="center">
-Streak (currently fed): 4
+Streak (currently fed): 5
 </p>
 
 <p align="center">
-Total times fed: 7
+Total times fed: 8
 </p>
 
 <p align="center">
@@ -31,7 +31,8 @@ Deathtoll: 1
 </p>
 
 
-| Top Feeders |
-| --------- || foogolplex |
+| Top Feeders | Score |
+| --------- | --------- |
+| foogolplex |
 | Murderers |
 | ---------- |
