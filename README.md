@@ -1,4 +1,4 @@
-<p align="center">Hi, I'm Rob.</p>
+<h2 align="center">Hi, I'm Rob.</h2>
 
 <br>
 <br>
@@ -19,21 +19,21 @@ Name: Charles Einstein
 </p>
 
 <p align="center">
-Streak (currently fed): 6
+Streak (currently fed): 7
 </p>
 
 <p align="center">
-Total times fed: 9
+Total times fed: 10
 </p>
 
 <p align="center">
 Deathtoll: 1
 </p>
 
-<center>
+
 | Top Feeders | Score |
-| --------- | --------- |
-| foogolplex |9 |</center><center>
+| :-: | :-: |
+| [@foogolplex](https://github.com/foogolplex/ | 10 |
 
 | Murderers |
-| ---------- |</center>
+| :-: |
