@@ -2,9 +2,6 @@
 
 name: "trilemma"
 
-env:
-        ENV_USER: github.event.issue.user.login
-        ENV_TITLE: github.event.issue.title
 
 # Controls when the workflow will run
 on:
@@ -14,11 +11,15 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  
+
   # This workflow contains a single job called "build"
   trilemma:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-  
+    env:
+      ENV_USER: github.event.issue.user.login
+      ENV_TITLE: github.event.issue.title
     if: github.event.issue.title == 'feed' || github.event.issue.title == 'kill' || github.event.issue.title == 'gains'
     steps:
     - uses: actions/checkout@v3
@@ -29,7 +30,7 @@ jobs:
         
       name: Set env variables and update the stats based on the issue title
     - run: python update.py $ENV_USER $ENV_TITLE
-    
+    - run: echo "$github.event.issue.title"
       name: Commit updated game/readme state
     - run: git add .
     - run: git config --global user.name "borb"
