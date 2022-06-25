@@ -46,7 +46,7 @@ def updateReadme():
 <br>
 
 <h1 align="center">
-Dilemma
+Dilemma V0.1
 </h1>
 
 <p align="center">
@@ -76,11 +76,11 @@ Deathtoll: {}
         f.write('\n| Top Feeders | Score |')
         f.write('\n| :-: | :-: |')
         for angel in data["angels"].keys():
-            f.write('\n| [@'+angel+ '](https://github.com/'+ angel + '/ | ' + str(data["angels"][angel]) + ' |')
+            f.write('\n| [@'+angel+ '](https://github.com/'+ angel + '/) | ' + str(data["angels"][angel]) + ' |')
         f.write('\n\n| Murderers |')
         f.write('\n| :-: |')
         for m in data["murderers"]:
-            f.write('\n| [@'+m+'](https://github.com/'+ angel + '/ |')
+            f.write('\n| [@'+m+'](https://github.com/'+ angel + '/) |')
         f.close()
 # if not a murderer then act
 if user not in data["murderers"]:
