@@ -71,14 +71,14 @@ Deathtoll: {}
 </p>
 
 '''.format(stats["name"], stats["currentfed"], stats["totalfed"], stats["deathtoll"]))
-        f.write('\n| Top Feeders |')
-        f.write('\n| --------- |')
+        f.write('\n| Top Feeders | Score |')
+        f.write('\n| --------- | --------- |')
         for angel in data["angels"].keys():
-            f.write('| '+angel+ ' |')
+            f.write('\n| '+angel+ ' |')
         f.write('\n| Murderers |')
         f.write('\n| ---------- |')
         for m in data["murderers"]:
-            f.write('| '+m+' |')
+            f.write('\n| '+m+' |')
         f.close()
 # if not a murderer then act
 if user not in data["murderers"]:
