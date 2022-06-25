@@ -1,7 +1,5 @@
 <p align="center">Hi, I'm Rob.</p>
 
-<p align="center"><i>Insert a meta, humble, "individualizing" hogwash of a blarney you've seen a septillion times to convince you I'm normal, competent and unique.</i></p>
-
 <br>
 <br>
 
