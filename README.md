@@ -1,7 +1,5 @@
 <p align="center">Hi, I'm Rob.</p>
 
-<p align="center"><i>Insert a meta, humble, "individualizing" hogwash of a blarney you've seen a septillion times to convince you I'm normal, competent and unique.</i></p>
-
 <br>
 <br>
 
@@ -21,13 +19,19 @@ Name: Charles Einstein
 </p>
 
 <p align="center">
-Streak (currently fed): 3
+Streak (currently fed): 4
 </p>
 
 <p align="center">
-Total times fed: 6
+Total times fed: 7
 </p>
 
 <p align="center">
 Deathtoll: 1
 </p>
+
+
+| Top Feeders |
+| --------- || foogolplex |
+| Murderers |
+| ---------- |
