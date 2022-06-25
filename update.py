@@ -38,7 +38,7 @@ def updateReadme():
         f.write("""
             [feed](https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will)\n
             [kill](https://github.com/foogolplex/foogolplex/issues/new?title=kill&body=just+click+submit+and+they+will+die+but+be+warned+that+you+will+be+revoked+from+your+privileges)
-        """
+        """)
         f.close()
 # if not a murderer then act
 if user not in data["murderers"]:
