@@ -18,10 +18,10 @@ def act():
     if action == "feed":
         stats["totalfed"] += 1
         stats["currentfed"] += 1
-    if user not in data["angels"]:
-        data["angels"][user] = 1
-    else:
-        data["angels"][user] += 1
+        if user not in data["angels"]:
+            data["angels"][user] = 1
+        else:
+            data["angels"][user] += 1
     elif action == "kill":
         stats["deathtoll"] += 1
         data["murderers"].append(user)
