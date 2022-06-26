@@ -15,7 +15,7 @@ Dilemma V0.1
 </p>
 
 <p align="center">
-<img src="https://github.com/foogolplex/foogolplex/blob/main/starving.gif" width="100" height="100">
+<img src="https://github.com/foogolplex/foogolplex/blob/main/starving.gif" width="200" height="200">
 </img>
 </p>
 
