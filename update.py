@@ -68,7 +68,7 @@ Dilemma V0.1
 </p>
 
 <p align="center">
-<img src="https://github.com/foogolplex/foogolplex/blob/main/{}.gif">
+<img src="https://github.com/foogolplex/foogolplex/blob/main/{}.gif" width="100" height="100">
 </img>
 </p>
 
