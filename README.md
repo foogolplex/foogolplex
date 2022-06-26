@@ -12,14 +12,15 @@ This is a proof of concept, multiplayer game via github actions that can be play
 </p>
 
 <p align="center">
-<a href=https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will>feed</a>
+<a href=https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will>Feed Him</a>
 </p>
+<p align="center"> OR... </p>
 <p align="center">
-<a href=https://github.com/foogolplex/foogolplex/issues/new?title=kill&body=just+click+submit+and+they+will+die+but+be+warned+that+you+will+be+revoked+from+your+privileges>kill</a>
+<a href=https://github.com/foogolplex/foogolplex/issues/new?title=kill&body=just+click+submit+and+they+will+die+but+be+warned+that+you+will+be+revoked+from+your+privileges>Kill Him?</a>
 </p>
 
 <p align="center">
-<img src="https://github.com/foogolplex/foogolplex/blob/main/recovering.gif" width="200" height="200">
+<img src="https://github.com/foogolplex/foogolplex/blob/main/recovering.gif" width="200" height="200" style="border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;">
 </img>
 </p>
 
@@ -28,29 +29,29 @@ Name: Augustus Banneker
 </p>
 
 <p align="center">
-Current state: recovering
+Current State: recovering
 </p>
 
 <p align="center">
-Streak (currently fed): 7
+Current Streak Fed: 8
 </p>
 
 <p align="center">
-Highest streak: 7
+Highest Streak Fed: 8
 </p>
 
 <p align="center">
-Total times fed: 19
+Total Fed: 20
 </p>
 
 <p align="center">
-Deathtoll: 3
+Death Toll: 3
 </p>
 
 
 | Top Feeders | Score |
 | :-: | :-: |
-| [@foogolplex](https://github.com/foogolplex/) | 7 |
+| [@foogolplex](https://github.com/foogolplex/) | 8 |
 
 | Murderers |
 | :-: |
