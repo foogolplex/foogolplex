@@ -15,7 +15,7 @@ Dilemma V0.1
 </p>
 
 <p align="center">
-<img src="https://github.com/foogolplex/foogolplex/.gif">
+<img src="https://github.com/foogolplex/foogolplex/starving.gif">
 </img>
 </p>
 
@@ -24,15 +24,15 @@ Name: Augustus Banneker
 </p>
 
 <p align="center">
-Streak (currently fed): 2
+Streak (currently fed): 3
 </p>
 
 <p align="center">
-Highest streak: 2
+Highest streak: 3
 </p>
 
 <p align="center">
-Total times fed: 14
+Total times fed: 15
 </p>
 
 <p align="center">
@@ -42,7 +42,7 @@ Deathtoll: 3
 
 | Top Feeders | Score |
 | :-: | :-: |
-| [@foogolplex](https://github.com/foogolplex/) | 2 |
+| [@foogolplex](https://github.com/foogolplex/) | 3 |
 
 | Murderers |
 | :-: |
