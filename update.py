@@ -17,18 +17,10 @@ with open("stats.json") as sdata:
     stats = json.load(sdata)
     sdata.close()
 
-state = ""
 def act():
     if action == "feed":
         stats["totalfed"] += 1
         stats["currentfed"] += 1
-        
-        if stats["currentfed"] == 0:
-            state = "emaciated"
-        elif stats["currentfed"] < 6:
-            state = "starving"
-        elif stats["currentfed"] < 11:
-            state = "recovering"
             
         if stats["currentfed"] > stats["highstreak"]:
             stats["highstreak"] = stats["currentfed"]
@@ -51,6 +43,13 @@ def generateNew():
     stats["name"] = firstNames[randint(0,len(firstNames))] + " " + lastNames[randint(0,len(lastNames))]
 
 def updateReadme():
+    state = ""
+    if stats["currentfed"] == 0:
+        state = "emaciated"
+    elif stats["currentfed"] < 6:
+        state = "starving"
+    elif stats["currentfed"] < 11:
+        state = "recovering"
     with open("README.md", "w") as f:
         f.write('''<h2 align="center">Hi, I'm Rob.</h2>
 
