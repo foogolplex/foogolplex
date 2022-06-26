@@ -74,11 +74,11 @@ This is a proof of concept, multiplayer game via github actions that can be play
 </p>
 
 <p align="center">
-<a href=https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will>Feed Him</a>
+<a href=https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will>Feed him</a>
 </p>
 <p align="center"> OR... </p>
 <p align="center">
-<a href=https://github.com/foogolplex/foogolplex/issues/new?title=kill&body=just+click+submit+and+they+will+die+but+be+warned+that+you+will+be+revoked+from+your+privileges>Kill Him?</a>
+<a href=https://github.com/foogolplex/foogolplex/issues/new?title=kill&body=just+click+submit+and+they+will+die+but+be+warned+that+you+will+be+revoked+from+your+privileges>Kill him?</a>
 </p>
 
 <p align="center">
