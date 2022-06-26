@@ -28,15 +28,19 @@ Name: Augustus Banneker
 </p>
 
 <p align="center">
-Streak (currently fed): 6
+Current state: recovering
 </p>
 
 <p align="center">
-Highest streak: 6
+Streak (currently fed): 7
 </p>
 
 <p align="center">
-Total times fed: 18
+Highest streak: 7
+</p>
+
+<p align="center">
+Total times fed: 19
 </p>
 
 <p align="center">
@@ -46,7 +50,7 @@ Deathtoll: 3
 
 | Top Feeders | Score |
 | :-: | :-: |
-| [@foogolplex](https://github.com/foogolplex/) | 6 |
+| [@foogolplex](https://github.com/foogolplex/) | 7 |
 
 | Murderers |
 | :-: |
