@@ -50,6 +50,15 @@ def updateReadme():
         state = "starving"
     elif stats["currentfed"] < 11:
         state = "recovering"
+    elif stats["currentfed"] < 25:
+        state = "average"
+    elif stats["currentfed"] < 50:
+        state = "chubby"
+    elif stats["currentfed"] < 100:
+        state = "obese"
+    else:
+        state = "sandworm"
+        
     with open("README.md", "w") as f:
         f.write('''<h2 align="center">Hi, I'm Rob.</h2>
 
@@ -57,8 +66,12 @@ def updateReadme():
 <br>
 
 <h1 align="center">
-Dilemma V0.1
+Dilemma
 </h1>
+
+<p align="center">
+This is a proof of concept, multiplayer game via github actions that can be played by submitting issues with different titles.
+</p>
 
 <p align="center">
 <a href=https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will>feed</a>
@@ -68,7 +81,7 @@ Dilemma V0.1
 </p>
 
 <p align="center">
-<img src="https://github.com/foogolplex/foogolplex/blob/main/{}.gif" width="100" height="100">
+<img src="https://github.com/foogolplex/foogolplex/blob/main/{}.gif" width="200" height="200">
 </img>
 </p>
 
