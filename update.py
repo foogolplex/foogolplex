@@ -90,6 +90,10 @@ Name: {}
 </p>
 
 <p align="center">
+Current state: {}
+</p>
+
+<p align="center">
 Streak (currently fed): {}
 </p>
 
@@ -105,7 +109,7 @@ Total times fed: {}
 Deathtoll: {}
 </p>
 
-'''.format(state, stats["name"], stats["currentfed"], stats["highstreak"], stats["totalfed"], stats["deathtoll"]))
+'''.format(state, stats["name"], state, stats["currentfed"], stats["highstreak"], stats["totalfed"], stats["deathtoll"]))
         f.write('\n| Top Feeders | Score |')
         f.write('\n| :-: | :-: |')
         for angel in data["angels"].keys():
