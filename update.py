@@ -17,10 +17,19 @@ with open("stats.json") as sdata:
     stats = json.load(sdata)
     sdata.close()
 
+state = ""
 def act():
     if action == "feed":
         stats["totalfed"] += 1
         stats["currentfed"] += 1
+        
+        if stats["currentfed"] == 0:
+            state = "emaciated"
+        elif stats["currentfed"] < 6:
+            state = "starving"
+        elif stats["currentfed"] < 11:
+            state = "recovering"
+            
         if stats["currentfed"] > stats["highstreak"]:
             stats["highstreak"] = stats["currentfed"]
         if user not in data["angels"]:
@@ -33,6 +42,7 @@ def act():
             del data["angels"][user]
         data["murderers"].append(user)
         generateNew()
+    
 
 firstNames = ["Abraham", "Muhammad ibn", "Alan", "Albert", "Albertus", "Alexander", "Alfred North", "Andrew", "Archimedes", "Aristotle", "Arthur", "Augustin-Louis", "Augustus", "Benjamin", "Bernhard", "Bertrand", "Blaise", "Brook", "Carl Friedrich", "Charles", "David", "Diophantus"]
 lastNames = ["De Moivre", "Khwarizmi", "Turing", "Einstein", "Magnus", "Grothendieck", "Whitehead", "Wiles", "Cayley", "Cauchy", "De Morgan", "Banneker", "Riemann", "Russel", "Pascal", "Taylor", "Gauss", "Babbage", "Bernoulli", "Hilbert"]
@@ -59,6 +69,11 @@ Dilemma V0.1
 </p>
 
 <p align="center">
+<img src="https://github.com/foogolplex/foogolplex/{}.gif">
+</img>
+</p>
+
+<p align="center">
 Name: {}
 </p>
 
@@ -78,7 +93,7 @@ Total times fed: {}
 Deathtoll: {}
 </p>
 
-'''.format(stats["name"], stats["currentfed"], stats["highstreak"], stats["totalfed"], stats["deathtoll"]))
+'''.format(state, stats["name"], stats["currentfed"], stats["highstreak"], stats["totalfed"], stats["deathtoll"]))
         f.write('\n| Top Feeders | Score |')
         f.write('\n| :-: | :-: |')
         for angel in data["angels"].keys():
