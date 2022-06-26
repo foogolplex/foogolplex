@@ -4,8 +4,12 @@
 <br>
 
 <h1 align="center">
-Dilemma V0.1
+Dilemma
 </h1>
+
+<p align="center">
+This is a proof of concept, multiplayer game via github actions that can be played by submitting issues with different titles.
+</p>
 
 <p align="center">
 <a href=https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will>feed</a>
@@ -15,7 +19,7 @@ Dilemma V0.1
 </p>
 
 <p align="center">
-<img src="https://github.com/foogolplex/foogolplex/blob/main/starving.gif" width="200" height="200">
+<img src="https://github.com/foogolplex/foogolplex/blob/main/recovering.gif" width="200" height="200">
 </img>
 </p>
 
@@ -24,15 +28,15 @@ Name: Augustus Banneker
 </p>
 
 <p align="center">
-Streak (currently fed): 5
+Streak (currently fed): 6
 </p>
 
 <p align="center">
-Highest streak: 5
+Highest streak: 6
 </p>
 
 <p align="center">
-Total times fed: 17
+Total times fed: 18
 </p>
 
 <p align="center">
@@ -42,7 +46,7 @@ Deathtoll: 3
 
 | Top Feeders | Score |
 | :-: | :-: |
-| [@foogolplex](https://github.com/foogolplex/) | 5 |
+| [@foogolplex](https://github.com/foogolplex/) | 6 |
 
 | Murderers |
 | :-: |
