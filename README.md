@@ -25,33 +25,33 @@ This is a proof of concept, multiplayer game via github actions that can be play
 </p>
 
 <p align="center">
-Name: Augustus Banneker
+Name: <em>Augustus Banneker</em>
 </p>
 
 <p align="center">
-Current State: recovering
+Current State: <em>recovering</em>
 </p>
 
 <p align="center">
-Current Streak Fed: 8
+Current Streak Fed: <em>9</em>
 </p>
 
 <p align="center">
-Highest Streak Fed: 8
+Highest Streak Fed: <em>9</em>
 </p>
 
 <p align="center">
-Total Fed: 20
+Total Fed: <em>21</em>
 </p>
 
 <p align="center">
-Death Toll: 3
+Death Toll: <em>3</em>
 </p>
 
 
 | Top Feeders | Score |
 | :-: | :-: |
-| [@foogolplex](https://github.com/foogolplex/) | 8 |
+| [@foogolplex](https://github.com/foogolplex/) | 9 |
 
 | Murderers |
 | :-: |
