@@ -87,27 +87,27 @@ This is a proof of concept, multiplayer game via github actions that can be play
 </p>
 
 <p align="center">
-Name: {}
+Name: <em>{}</em>
 </p>
 
 <p align="center">
-Current State: {}
+Current State: <em>{}</em>
 </p>
 
 <p align="center">
-Current Streak Fed: {}
+Current Streak Fed: <em>{}</em>
 </p>
 
 <p align="center">
-Highest Streak Fed: {}
+Highest Streak Fed: <em>{}</em>
 </p>
 
 <p align="center">
-Total Fed: {}
+Total Fed: <em>{}</em>
 </p>
 
 <p align="center">
-Death Toll: {}
+Death Toll: <em>{}</em>
 </p>
 
 '''.format(state, stats["name"], state, stats["currentfed"], stats["highstreak"], stats["totalfed"], stats["deathtoll"]))
