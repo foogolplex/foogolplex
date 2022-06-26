@@ -74,14 +74,15 @@ This is a proof of concept, multiplayer game via github actions that can be play
 </p>
 
 <p align="center">
-<a href=https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will>feed</a>
+<a href=https://github.com/foogolplex/foogolplex/issues/new?title=feed&body=just+click+submit+and+feed+they+will>Feed Him</a>
 </p>
+<p align="center"> OR... </p>
 <p align="center">
-<a href=https://github.com/foogolplex/foogolplex/issues/new?title=kill&body=just+click+submit+and+they+will+die+but+be+warned+that+you+will+be+revoked+from+your+privileges>kill</a>
+<a href=https://github.com/foogolplex/foogolplex/issues/new?title=kill&body=just+click+submit+and+they+will+die+but+be+warned+that+you+will+be+revoked+from+your+privileges>Kill Him?</a>
 </p>
 
 <p align="center">
-<img src="https://github.com/foogolplex/foogolplex/blob/main/{}.gif" width="200" height="200">
+<img src="https://github.com/foogolplex/foogolplex/blob/main/{}.gif" width="200" height="200" style="border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;">
 </img>
 </p>
 
@@ -90,23 +91,23 @@ Name: {}
 </p>
 
 <p align="center">
-Current state: {}
+Current State: {}
 </p>
 
 <p align="center">
-Streak (currently fed): {}
+Current Streak Fed: {}
 </p>
 
 <p align="center">
-Highest streak: {}
+Highest Streak Fed: {}
 </p>
 
 <p align="center">
-Total times fed: {}
+Total Fed: {}
 </p>
 
 <p align="center">
-Deathtoll: {}
+Death Toll: {}
 </p>
 
 '''.format(state, stats["name"], state, stats["currentfed"], stats["highstreak"], stats["totalfed"], stats["deathtoll"]))
