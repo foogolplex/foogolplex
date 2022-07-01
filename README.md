@@ -33,15 +33,15 @@ Current State: <b>average</b>
 </p>
 
 <p align="center">
-Current Streak Fed: <b>12</b>
+Current Streak Fed: <b>13</b>
 </p>
 
 <p align="center">
-Highest Streak Fed: <b>12</b>
+Highest Streak Fed: <b>13</b>
 </p>
 
 <p align="center">
-Total Fed: <b>24</b>
+Total Fed: <b>25</b>
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@ Death Toll: <b>3</b>
 | Top Feeders | Score |
 | :-: | :-: |
 | [@foogolplex](https://github.com/foogolplex/) | 11 |
-| [@frenchytheasian](https://github.com/frenchytheasian/) | 1 |
+| [@frenchytheasian](https://github.com/frenchytheasian/) | 2 |
 
 | Murderers |
 | :-: |
